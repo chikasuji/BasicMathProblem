@@ -10,7 +10,7 @@ if len(equation) != 5:
 	exit()
 if str(equation[0][-1]) != '2' or equation[2][-1] != 'x' or equation[4][-1].isalpha():
     print("not a 2nd degree equation ! exiting ..."
-    "input exemple : 2x**8 + x - 9")
+    "input example : 2x**8 + x - 9")
     os.system(exit())
 
 else:
